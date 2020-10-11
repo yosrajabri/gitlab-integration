@@ -1,3 +1,9 @@
+.platform_template: &WindowsPlatform
+  variables:
+    BUILD_DIR: "%CI_PROJECT_DIR%/%CI_BUILD_REF_NAME%/build"
+    PLATFORM: 'windows'
+  tags:
+    - windows
 test:
   script: 
     - echo 'test' > test1.txt
