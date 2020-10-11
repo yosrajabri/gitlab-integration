@@ -1,0 +1,2 @@
+test:
+  script: ["echo 'test' > test1.txt"]
