@@ -1,13 +1,10 @@
-.platform_template: &WindowsPlatform
-  variables:
-    BUILD_DIR: "%CI_PROJECT_DIR%/%CI_BUILD_REF_NAME%/build"
-    PLATFORM: 'windows'
+build:windows:
+  stage: build
   tags:
     - windows
+  before_script:
+    - set PATH=%PATH%;C:\Users\asus\Desktop\GitLab\gitlabgithub
 test:
   script: 
     - echo 'test' > test1.txt
     - mkdir yosra
- artifacts:
-  paths:
-    - 'C:\Users\asus\Desktop\GitLab\gitlabgithub'
