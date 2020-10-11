@@ -1,4 +1,4 @@
 test:
   script: 
     - echo 'test' > test1.txt
-    - mkdir .yosra
+    - mkdir yosra
