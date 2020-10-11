@@ -10,4 +10,4 @@ test:
     - mkdir yosra
  artifacts:
   paths:
-    - C:/Users/asus/Desktop/GitLab/gitlabgithub
+    - 'C:\Users\asus\Desktop\GitLab\gitlabgithub'
