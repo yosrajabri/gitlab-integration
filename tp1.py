@@ -1,2 +1,2 @@
 x = "cool"
-print("Python est cool" + x)
+print("Python est " + x)
