@@ -1,5 +1,4 @@
 build:windows:
-  stage: build
   tags:
     - windows
   before_script:
