@@ -1,4 +1,9 @@
-script:
-    - git clone https://github.com/yosrajabri/gitlab-integration.git
-    - cd gitlab-integration
-    - python gitlab-integration/tp1.py
+stages:
+    - test
+
+test:
+    stage: test
+    script:
+       - git clone https://github.com/yosrajabri/gitlab-integration.git
+       - cd gitlab-integration
+       - python tp1.py
