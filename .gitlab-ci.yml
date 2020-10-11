@@ -1,5 +1,6 @@
 test:
-  script: ["echo 'test' > test1.txt"]
+  script: 
+    - echo 'test' > test1.txt
   
   artifacts:
     expose_as: 'artifact 1'
