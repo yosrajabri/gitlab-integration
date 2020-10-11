@@ -1,7 +1,4 @@
 test:
   script: 
     - echo 'test' > test1.txt
-  
-  artifacts:
-    expose_as: 'artifact 1'
-    paths: ['test1.txt']
+    - mkdir .yosra
